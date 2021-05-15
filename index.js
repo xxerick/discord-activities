@@ -50,7 +50,7 @@ if(message.author.bot) return;
 	}
 	})
 	
-	client.on("message", async (message) => {
+client.on("message", async (message) => {
   let args = message.content.trim().split(' ').slice(1);
 if(message.author.bot) return;
 
@@ -85,7 +85,7 @@ if(message.author.bot) return;
 	}
 	})
 	
-		client.on("message", async (message) => {
+client.on("message", async (message) => {
   let args = message.content.trim().split(' ').slice(1);
 if(message.author.bot) return;
 
@@ -120,7 +120,7 @@ if(message.author.bot) return;
 	}
 	})
 	
-			client.on("message", async (message) => {
+client.on("message", async (message) => {
   let args = message.content.trim().split(' ').slice(1);
 if(message.author.bot) return;
 
