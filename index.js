@@ -6,7 +6,7 @@ client.on('ready', async () => {
     console.log(`${client.user.tag} is ready !`)
     client.user.setActivity(`made by baby`)
 })
-
+ 
 client.on("message", async (message) => {
   let args = message.content.trim().split(' ').slice(1);
 if(message.author.bot) return;
